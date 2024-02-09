@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "readwise-anki-gpt"
+version = "0.1.0"
+description = "Create Anki cards from your Readwise highlights using generative AI"
+authors = ["Quinn McHugh <qpmchugh@gmail.com>"]
+license = "GNU AGPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aqt = {extras = ["qt6"], version = "^23.12.1"}
+readwise = "^1.1.0"
+openai = "^1.7.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+isort = "^5.13.2"
+aab = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
