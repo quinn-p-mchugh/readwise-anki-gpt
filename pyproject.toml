@@ -7,7 +7,7 @@ license = "GNU AGPLv3"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 aqt = {extras = ["qt6"], version = "^23.12.1"}
 readwise = "^1.1.0"
 openai = "^1.7.2"
