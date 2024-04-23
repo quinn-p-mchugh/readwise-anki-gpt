@@ -8,7 +8,7 @@ ANKI_CONFIG = mw.addonManager.getConfig(__name__)
 
 """Paths & Directories"""
 ADDON_ROOT_DIR = Path(__file__).parent
-USER_DATA_DIR = ADDON_ROOT_DIR / "user_data"
+USER_DATA_DIR = ADDON_ROOT_DIR / "user_files"
 DEPS_DIR = ADDON_ROOT_DIR / "deps"
 USER_DATA_PATH = USER_DATA_DIR / "user_data.json"
 USER_DATA_TEMPLATE_PATH = ADDON_ROOT_DIR / "user_data_template.json"

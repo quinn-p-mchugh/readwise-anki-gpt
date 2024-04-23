@@ -1,5 +1,5 @@
 src/readwise-anki-gpt/config.json
-src/readwise-anki-gpt/user_data
+src/readwise-anki-gpt/user_files
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode
