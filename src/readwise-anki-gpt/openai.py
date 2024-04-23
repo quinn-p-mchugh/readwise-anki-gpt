@@ -5,7 +5,7 @@ import sqlite3
 import itertools
 import json
 from openai import OpenAI
-from aqt.qt import QObject, pyqtSignal, QMessageBox
+from aqt import QObject, pyqtSignal, QMessageBox
 
 from . import config
 from .database import stream_records, bulk_insert_records

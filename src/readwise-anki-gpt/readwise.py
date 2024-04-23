@@ -8,6 +8,8 @@ from .gui.msg_box import missing_rw_access_token
 from datetime import datetime
 from .database import create_sqlite_tables
 from . import controller
+from aqt import QObject
+from aqt import pyqtSlot, pyqtSignal
 
 # TODO: Add exception handling to this module
 

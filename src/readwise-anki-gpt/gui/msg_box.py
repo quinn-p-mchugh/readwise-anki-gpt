@@ -1,6 +1,6 @@
 """Module for generating message boxes."""
 
-from aqt.qt import QMessageBox, QInputDialog, QStyle
+from aqt import QMessageBox, QInputDialog, QStyle
 
 from ..config import READWISE_ACCESS_TOKEN_URL
 

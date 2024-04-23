@@ -6,9 +6,17 @@ import os
 import sys
 import shutil
 
-from aqt import mw
-from aqt.utils import qconnect
-from aqt.qt import QAction, QMenu, QMessageBox
+from aqt import (
+    mw,
+    qconnect,
+    QMessageBox,
+    QDialog,
+    QThreadPool,
+    pyqtSlot,
+    pyqtSignal,
+    QRunnable,
+    QObject,
+)
 
 from .gui.msg_box import *
 
